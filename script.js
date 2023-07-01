@@ -103,6 +103,7 @@ function draw(){
   if(count==0){
     document.getElementById("title").innerHTML="DRAW ! ";
   }  
+  end();
 } 
 function clickk(ok){
   var btn = document.getElementById(ok.id);
